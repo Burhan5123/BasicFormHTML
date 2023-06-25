@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Western Columbia Grocers</title>
+	<link rel = "stylesheet" type = "text/css" href="registrationform.css">
+</head>
+<body>
+	
+	<div>
+		<h1>Registration form for Western Columbia Grocers</h1>
+		
+		<form action="mailto:http://localhost/registrationform.html" method="GET">
+			<label for="n1">Name</label><br>
+			<input type="text" id="n1" maxlength="25" name="g1" pattern="[A-Za-z -]+$" placeholder="Enter your name here"><br>
+
+			<label for="n2">Address</label><br>
+			<input type="text" id="n2" placeholder="enter your address"><br>
+
+			<label for="n3">Telephone Number</label><br>
+			<input type="tel" id="n3"  pattern="[0-9]{3}[-][0-9]{3}[-][0-9]{4}" placeholder="e.g 123-123-1234"><br>
+
+			<label for="n4">Age</label><br>
+			<input type="Number" id="n4" placeholder="enter your age"><br>
+		
+
+			<label for="n5">E-mail</label><br>
+			<input type="email" id="n5" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" placeholder="abc@example.com"><br>
+
+			<label for="n6">Registration Date</label><br>
+			<input type="Date" id="n6"><br>
+
+			<input type="reset" value="Reset"> <input type="submit" value="Submit">
+
+
+		</form>
+	</div>
+
+</body>
+</html>

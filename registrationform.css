@@ -1,0 +1,31 @@
+body{
+
+	background-image: url("image/img1.jpg");
+	/*https://unsplash.com/photos/yI3weKNBRTc*/
+	font-size: 40px;
+	
+}
+
+div{
+
+	text-align: center;
+    padding:10px;
+    border: 20px solid rgba(0,0,0,0.4);
+    width: 500px;
+    margin: auto;
+
+  
+    
+}
+h1{
+
+	font-size: 50px;
+	color: orangered;
+	text-decoration: underline;
+}
+
+input{
+
+	width:40%;
+	height:20px;
+}
